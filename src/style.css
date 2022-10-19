@@ -6,10 +6,10 @@ body {
   margin-bottom: 20px;
 }
 
-label {
+.label {
   display: block;
 }
 
-.label {
+.fieldset > label:nth-of-type(n + 2) {
   margin-top: 10px;
 }

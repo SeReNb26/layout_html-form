@@ -4,7 +4,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, 
+      maximum-scale=1.0, minimum-scale=1.0"
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
@@ -12,10 +13,12 @@
   </head>
 
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+    <form 
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
+    method="post">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <label for="surname">
+        <label for="surname" class="label">
           Surname:
           <input 
           type="text" 
@@ -52,19 +55,19 @@
         id="date"
           >
         </label>
-        <label for="condition-agreement" class="label">
+        <label for="conditionAgreement" class="label">
           I accept the term of the agreement
           <input 
           type="checkbox" 
-          name="condition-agreement" 
-          id="condition-agreement" 
+          name="conditionAgreement" 
+          id="conditionAgreement" 
           required
           >
         </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Registration</legend>
-        <label for="email">
+        <label for="email" class="label">
           E-mail:
           <input 
           type="email" 
@@ -88,10 +91,10 @@
       </fieldset>
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <label for="cat-lover">
+        <label for="catLover" class="label">
           Do you love cats?
-          <input type="radio" name="cat-lover"> Yes
-          <input type="radio" name="cat-lover"> No
+          <input type="radio" name="catLover"> Yes
+          <input type="radio" name="catLover"> No
         </label>
         <label for="color" class="label">
         What is your favorite color?
@@ -101,19 +104,19 @@
         id="color"
           >
         </label>
-        <label for="time-to-sleep" class="label">
+        <label for="timeToSleep" class="label">
           What time do you go to bed?
           <input 
           type="time" 
-          name="time-to-sleep" 
-          id="time-to-sleep"
+          name="timeToSleep" 
+          id="timeToSleep"
           >
         </label>
-        <label for="favorite-cars-brand" class="label">
+        <label for="favoriteCarsBrand" class="label">
           What are your favorite brand of cars?
           <select 
-          name="favorite-cars-brand" 
-          id="favorite-cars-brand" 
+          name="favoriteCarsBrand" 
+          id="favoriteCarsBrand" 
           multiple
           >
             <option value="BMW">BMW</option>
@@ -121,19 +124,19 @@
             <option value="Lada">Lada</option>
           </select>
         </label>
-        <label for="work-rate" class="label">
+        <label for="workRate" class="label">
           How do you rate our work?
           <input 
           type="range" 
-          name="work-rate" 
-          id="work-rate" 
+          name="workRate" 
+          id="workRate" 
           value="0"
           >
         </label>
       </fieldset>
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
-        <label for="comments">
+        <label for="comments" class="label">
           Comments:
           <textarea 
           name="comments" 
