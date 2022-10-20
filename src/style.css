@@ -6,6 +6,6 @@
   display: block;
 }
 
-.fieldset > label:nth-of-type(n + 2) {
+.fieldset > :not(.first-lable) {
   margin-top: 10px;
 }
